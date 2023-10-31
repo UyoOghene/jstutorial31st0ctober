@@ -1,0 +1,19 @@
+h1{
+    color: rgb(133, 11, 133);
+    font-size: 100px;
+}
+
+#marvel {
+    width: 250px; ;
+}
+
+.spec {
+    color: brown;
+    font-size: 20px;
+    border: 1px solid teal;
+} 
+
+input[type="password"] {
+    height: 30px;
+    width: 100px;
+}
