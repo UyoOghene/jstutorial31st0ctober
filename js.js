@@ -287,19 +287,19 @@ let animals=['cow','goat','cat','fish','crab','salmon'];
 
     // Arrays plus objects
 
-const student ={
-    firstname : 'dave',
-    lastName :'banner',
-    strenght : ['music','arts'],
-    exams : {
-        midterm: 94,
-        final: 89
-    }
+// const student ={
+//     firstname : 'dave',
+//     lastName :'banner',
+//     strenght : ['music','arts'],
+//     exams : {
+//         midterm: 94,
+//         final: 89
+//     }
 
-}
+// }
 // Quiz: find the average of the miderm and finals in the object Above
 // Answer
-const avg = (student.exams.midterm + student.exams.final)/2;
+// const avg = (student.exams.midterm + student.exams.final)/2;
 // console.log(avg)
 
 // to access arts :
@@ -338,4 +338,105 @@ const avg = (student.exams.midterm + student.exams.final)/2;
 //  so if you add a value to hues2, it will also be added to hues 
 
 
+// Loops
+// for()[initial value;
+//     condition;
+//     increment;
+// }
 
+// for (let i=1;i<=10;i++){
+//     console.log(i);
+
+// for(let num=1; num<=20; num++) {
+//     console.log(`${num}x${num}=${num*num}`);
+
+// }
+
+// Example ; start i at 50, subtract 10 each iteration, keep going until you get 0.
+// Answer;
+// for(let i=50;i>=0; i-=10){
+//     console.log(`${i}-10=${i-10}`);
+// }
+// Example ; count down from 200 with intervals of 25.
+// Answer
+// for (let c=200;c>=1;c-=25){
+//     console.log(`${c}-25=${c-25}`)
+// }
+  
+// use the index to loop over an array
+// const examscore =[98,23,78,57,4,32,77];
+
+// for(let i=0;i<=examscore.length-1;i+=1){
+//     console.log(examscore[i]);
+    
+// }
+
+// const animal =['cat','pig','rat','fish','chicken'];
+
+// for(let i=0;i<=animal.length-1;i++) {
+//     console.log(animal[i]);
+// }
+// Example; create a loop saying the name and grades of each student
+// const students= [
+//     {
+//         name: 'jay',
+//         grade: 56
+//     },
+//     {
+//         name: 'kaka',
+//         grade: 95
+//     },
+//     {
+//         name: 'pawpaw',
+//         grade: 87
+//     },
+//     {
+//         name: 'tobby',
+//         grade: 90
+//     },
+//     {
+//         name: 'jane',
+//         grade: 91
+//     },
+
+// ]
+
+// for(let i=0;i<=students.length-1;i++){
+//     console.log(students[i].name+` scored ` +students[i].grade)
+// }
+
+// example: loop over the letters in the string below backwards
+// const word = 'stressed';
+// for(let i=7; i>=0;i--){
+// console.log(word[i]);
+// }
+
+
+// example ; find the average of the grades below:
+// 
+// for(let i=0;i<=10;i++){
+// console.log('outer loop',i);
+// for(let j=10;j>=0;j--){
+//     console.log('innerloop',j)
+// }
+// }
+
+// const gameboard=[
+//     [4,32,8,4],
+//     [64,8,32,2],
+//     [8,32,16,4],
+//     [2,8,4,2]
+// ]
+// let total=0;
+// for(let i=0;i<gameboard.length;i++){
+//     // console.log(gameboard[i]);
+//     for(let j=0;j<gameboard[i].length;j++){
+//        total+=gameboard[i][j];
+    
+//     }
+// }
+let j=0;
+while(j<=10) {
+    console.log(j)
+    j++;
+}
