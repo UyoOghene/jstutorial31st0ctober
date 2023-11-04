@@ -435,8 +435,55 @@ let animals=['cow','goat','cat','fish','crab','salmon'];
     
 //     }
 // }
-let j=0;
-while(j<=10) {
-    console.log(j)
-    j++;
-}
+
+
+// while loops:
+// while (condition){
+//     update and try to make the condition
+
+// }
+// let j=0;
+// while(j<=10) {
+//     console.log(j)
+//     j++;
+// }
+
+// while loops are used mainly when you dont know how many times you want the code to run
+
+
+const target = Math.floor(Math.random() * 10);
+let guess=  Math.floor(Math.random() * 10);
+
+// while(true) {
+//     if(target === guess)break;
+//     console.log(target,guess, 'try again');
+//    guess= Math.floor(Math,random * 10);
+// }
+// console.log('congrats',target,guess)
+// alternatively for the same loop,
+
+// while(guess !==target){
+//     console.log(target,guess,'try again');
+//     guess= Math.floor(Math.random() * 10);
+// }
+// console.log(target,guess,'you win');
+
+// For of loops
+// Syntax;
+// for(variable of iterable){
+//     statement
+// }
+
+// let subreddits=['soccer','travel','books','music','cars'];
+
+// for(let sub of subreddits) {
+//     console.log(sub.toUpperCase());
+// }
+
+// // example 2
+// for (let char of 'cockadoodle') {
+//     console.log(char);
+// }
+
+// example 3 
+// const magicSquare =
