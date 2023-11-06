@@ -486,4 +486,47 @@ let guess=  Math.floor(Math.random() * 10);
 // }
 
 // example 3 
-// const magicSquare =
+const magicSquare =[
+    [2,7,6],
+    [9,5,1],
+    [4,3,8]
+];
+
+// for(let i=0;i<magicSquare.length;i++){
+//     // console.log(magicSquare[i]);
+//     let row=magicSquare[i];
+//     let sum=0;
+
+//     for(let j=0;j<row.length;j++){
+//         let magic=row[j];
+//         sum+=magic;
+
+//     }
+//     console.log(sum);
+
+// }
+
+// with for of loop
+
+// // for(let row of magicSquare){
+// //     console.log(row);
+// //     let sum=0;
+//     for(let magic of row){
+//         console.log(magic);
+//        sum+=magic;
+//     }
+//     console.log(`${row} sums up to${sum}`)
+// }
+
+// const movieReviews = {
+//     arrival :9.5,
+//     home    :9.0,
+//     'kill bill': 9,
+//     amadeus: 7,
+//     Antz: 10,
+
+// };
+
+// for (let movie of Object.values(movieReviews)){
+//     console.log(movie);
+// }
