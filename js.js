@@ -451,8 +451,8 @@ let animals=['cow','goat','cat','fish','crab','salmon'];
 // while loops are used mainly when you dont know how many times you want the code to run
 
 
-const target = Math.floor(Math.random() * 10);
-let guess=  Math.floor(Math.random() * 10);
+// const target = Math.floor(Math.random() * 10);
+// let guess=  Math.floor(Math.random() * 10);
 
 // while(true) {
 //     if(target === guess)break;
@@ -518,6 +518,8 @@ const magicSquare =[
 //     console.log(`${row} sums up to${sum}`)
 // }
 
+
+// for of in objects
 // const movieReviews = {
 //     arrival :9.5,
 //     home    :9.0,
@@ -527,6 +529,28 @@ const magicSquare =[
 
 // };
 
-// for (let movie of Object.values(movieReviews)){
-//     console.log(movie);
+
+// for (let movie of Object.keys(movieReviews)){
+//     // console.log(movie, movieReviews[movie]);
+
 // }
+
+// // To find the average of the values
+// const ratings=Object.values(movieReviews);
+// let sum=0;
+// for(let r of ratings){
+//     sum += r;
+// }
+// let avg=sum/ratings.length;
+// console.log(avg);
+
+// For in loops
+//  const winnings= {
+//     play : 232499,
+//     challenge :223445,
+//     tournament : 324655,
+//     battle :543233,
+//  };
+//  for (prop in winnings) {
+//     console.log(prop);
+//  }
