@@ -130,10 +130,11 @@
 // letter of the alphabet.make sure you ignore string casing
 
 // function isPangram(sentence){
+//     let lowercased =sentence.toLowerCase();d
 // for(let char of 'abcdefghijklmnopqrstuvwxyz'){
 //     console.log(char);
 // }
-// if(sentence.indexOf(char)===-1){
+// if(lowercased.indexOf(char)===-1){
 //     return false;
 // }
 
@@ -142,3 +143,14 @@
 
 // isPangram('sssskk')
 
+
+
+// function isPangram(sentence){
+//     let lowercased=sentence.toLowerCase();
+//     for(let char of 'abcdefghijklmnopqrstuvwxyz'){
+//         if(!lowercased.includes(char)){
+//             return false;
+//         }
+//         return true;
+//     }
+// }
